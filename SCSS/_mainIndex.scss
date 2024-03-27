@@ -1,0 +1,23 @@
+.imgIndex{
+    background-image: url(../assets/lala.jpg);
+    background-size: cover;
+    background-position: bottom;
+    height: 600px;
+    main{
+        margin-top: 300px;
+        marquee{
+            a{
+                font-family: $font1;
+                font-size: 1.5rem;
+                font-weight:700;
+                color: $color2;
+                text-decoration: none;
+                }
+                a:hover{
+                color: $color3;
+                scale: 1.1;
+                transition: scale 3s;
+                }
+        }
+    }
+}

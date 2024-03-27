@@ -9,33 +9,21 @@
         max-width: 350px;
         min-width: 300px;
         display: flex;
+        flex-direction: column;
         align-items: center;
         justify-content: center;
         margin: 20px 10px;
+        a{
+            padding: 10px 0;
+            font-family: $font1;
+            color: $color4;
+            text-decoration: none;
+        }
+        a:hover{
+            color: $color3;
+        }
         .pubImg{
             object-fit: cover;
-        }
-        .ediText{
-            margin:40px 0;
-            padding: 30px;
-            text-align: center;
-            h1{
-                font-size: large;
-            }
-            p{
-                font-size: smaller;
-            }
-            a{
-                font-weight: 500;
-                font-style: italic;
-                color: $color4;
-                text-decoration: none;
-            }
-            a:hover{
-                color: $color3;
-                scale: 1.1;
-                transition: scale 3s;
-            }
         }
     }
 }

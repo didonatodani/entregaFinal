@@ -79,10 +79,26 @@ footer .socialMedia .social:hover {
   font-weight: bold;
 }
 
-/* MAIN INDEX STYLES START */
-.indexImg {
-  height: 500px;
-  object-fit: cover;
+.imgIndex {
+  background-image: url(../assets/lala.jpg);
+  background-size: cover;
+  background-position: bottom;
+  height: 600px;
+}
+.imgIndex main {
+  margin-top: 300px;
+}
+.imgIndex main marquee a {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: white;
+  text-decoration: none;
+}
+.imgIndex main marquee a:hover {
+  color: #f54020;
+  scale: 1.1;
+  transition: scale 3s;
 }
 
 /* ABOUT PAGE STYLES START */
@@ -155,34 +171,22 @@ footer .socialMedia .social:hover {
   max-width: 350px;
   min-width: 300px;
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
   margin: 20px 10px;
 }
-.rowPub .pub .pubImg {
-  object-fit: cover;
-}
-.rowPub .pub .ediText {
-  margin: 40px 0;
-  padding: 30px;
-  text-align: center;
-}
-.rowPub .pub .ediText h1 {
-  font-size: large;
-}
-.rowPub .pub .ediText p {
-  font-size: smaller;
-}
-.rowPub .pub .ediText a {
-  font-weight: 500;
-  font-style: italic;
+.rowPub .pub a {
+  padding: 10px 0;
+  font-family: "Montserrat", sans-serif;
   color: black;
   text-decoration: none;
 }
-.rowPub .pub .ediText a:hover {
+.rowPub .pub a:hover {
   color: #f54020;
-  scale: 1.1;
-  transition: scale 3s;
+}
+.rowPub .pub .pubImg {
+  object-fit: cover;
 }
 
 /* CONNECT PAGE STYLES START */
@@ -291,7 +295,7 @@ footer .socialMedia .social:hover {
   }
   .rowPub .pub:hover {
     z-index: 2;
-    transform: scale(1.4);
+    transform: scale(1.2);
     transition: 1.5s;
   }
 }
