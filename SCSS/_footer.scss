@@ -1,0 +1,29 @@
+/* FOOTER STYLES START */
+
+footer{
+    padding: 2%;
+    background-color: $color1;
+    .socialMedia{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        .social{
+            color: $color4;
+            margin: 20px 10px;
+        }
+        .social:hover{
+            color: $color3;
+            scale: 1.5;
+            transition: scale 1s;
+        }
+    }
+}
+.copyRight{
+    font-family: $font1;
+    text-align: center;
+    .name{
+        color: $color3;
+        text-transform: uppercase;
+        font-weight: bold;
+    }
+}

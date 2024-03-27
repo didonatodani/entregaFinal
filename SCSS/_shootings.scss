@@ -1,0 +1,36 @@
+/* SHOOTINGS STYLES START */
+
+.grid{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(7, 400px);
+    gap:10px;
+    margin-top: 10px;
+    .grid-item{
+        background-size: cover;
+        background-position: center;
+    }
+    .item01{
+        background-image: url(../assets/shoot04.jpg);
+        background-position: bottom;
+    }
+    .item02{
+        background-image: url(../assets/shoot03.jpg);
+    }
+    .item03{
+        background-image: url(../assets/shoot07.jpg);
+    }
+    .item04{
+        background-image: url(../assets/shoot01.jpg);
+    }
+    .item05{
+        background-image: url(../assets/shoot08.jpg);
+    }
+    .item06{
+        background-image: url(../assets/shoot02.jpg);
+    }
+    .item07{
+        background-image: url(../assets/shoot06.jpg);
+    }
+}

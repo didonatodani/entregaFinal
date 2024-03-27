@@ -1,0 +1,353 @@
+/* FONTS */
+@import url("https://fonts.googleapis.com/css2?family=Gabarito:wght@400..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+/* font-family: "Montserrat", sans-serif;
+font-family: "Gabarito", sans-serif; */
+/* RESET */
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-tap-highlight-color: transparent;
+}
+
+/* VARIABLES */
+/* GENERAL WEBSITE STYLES */
+body {
+  background-color: white;
+}
+
+h1, h2, h3, p, a, input {
+  font-family: "Montserrat", sans-serif;
+}
+
+h1 {
+  color: #f54020;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+h2 {
+  font-style: italic;
+  font-size: larger;
+  color: black;
+}
+
+/* NAV BAR STYLES START */
+nav {
+  background-color: rgba(254, 249, 244, 0.605);
+  flex-direction: column;
+  font-size: medium;
+}
+nav .logo {
+  width: 200px;
+}
+nav div div .nav-link {
+  text-align: center;
+}
+nav div div .nav-link:hover {
+  color: #f54020;
+  scale: 1.2;
+  transition: scale 2s;
+}
+
+/* FOOTER STYLES START */
+footer {
+  padding: 2%;
+  background-color: rgba(254, 249, 244, 0.605);
+}
+footer .socialMedia {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+footer .socialMedia .social {
+  color: black;
+  margin: 20px 10px;
+}
+footer .socialMedia .social:hover {
+  color: #f54020;
+  scale: 1.5;
+  transition: scale 1s;
+}
+
+.copyRight {
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+}
+.copyRight .name {
+  color: #f54020;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+/* MAIN INDEX STYLES START */
+.indexImg {
+  height: 500px;
+  object-fit: cover;
+}
+
+/* ABOUT PAGE STYLES START */
+.rowAbout {
+  padding: 15px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.rowAbout .fotoAbout {
+  background-image: url(../assets/maguigif.gif);
+  height: 500px;
+  object-fit: cover;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: rgba(254, 249, 244, 0.605);
+}
+.rowAbout .textAbout {
+  margin-top: 20px;
+  padding: 10px;
+  text-align: center;
+}
+
+/* SHOOTINGS STYLES START */
+.grid {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(7, 400px);
+  gap: 10px;
+  margin-top: 10px;
+}
+.grid .grid-item {
+  background-size: cover;
+  background-position: center;
+}
+.grid .item01 {
+  background-image: url(../assets/shoot04.jpg);
+  background-position: bottom;
+}
+.grid .item02 {
+  background-image: url(../assets/shoot03.jpg);
+}
+.grid .item03 {
+  background-image: url(../assets/shoot07.jpg);
+}
+.grid .item04 {
+  background-image: url(../assets/shoot01.jpg);
+}
+.grid .item05 {
+  background-image: url(../assets/shoot08.jpg);
+}
+.grid .item06 {
+  background-image: url(../assets/shoot02.jpg);
+}
+.grid .item07 {
+  background-image: url(../assets/shoot06.jpg);
+}
+
+/* PUBLICATIONS STYLES START */
+.rowPub {
+  display: flex;
+  justify-content: center;
+  padding: 30px 5px;
+}
+.rowPub .pub {
+  background-color: white;
+  max-height: 430px;
+  max-width: 350px;
+  min-width: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 20px 10px;
+}
+.rowPub .pub .pubImg {
+  object-fit: cover;
+}
+.rowPub .pub .ediText {
+  margin: 40px 0;
+  padding: 30px;
+  text-align: center;
+}
+.rowPub .pub .ediText h1 {
+  font-size: large;
+}
+.rowPub .pub .ediText p {
+  font-size: smaller;
+}
+.rowPub .pub .ediText a {
+  font-weight: 500;
+  font-style: italic;
+  color: black;
+  text-decoration: none;
+}
+.rowPub .pub .ediText a:hover {
+  color: #f54020;
+  scale: 1.1;
+  transition: scale 3s;
+}
+
+/* CONNECT PAGE STYLES START */
+.bgImg {
+  background-image: url(../assets/connect.jpg);
+  background-size: cover;
+  background-position-y: bottom;
+}
+
+.formDiv {
+  max-height: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.formDiv .titleConnect {
+  padding: 10px;
+  margin-top: 10px;
+}
+.formDiv .formGrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 40px 40px 190px 30px;
+  height: 300px;
+  max-width: 450px;
+  margin: 15px 15px 0 15px;
+  opacity: 0.8;
+}
+.formDiv .formGrid .formSurname {
+  grid-column: 2/3;
+}
+.formDiv .formGrid .formText {
+  grid-column: 1/3;
+  position: relative;
+}
+.formDiv .formGrid .formSubmit {
+  grid-column: 2/3;
+  background-color: rgba(254, 249, 244, 0.605);
+  font-weight: 600;
+}
+.formDiv .formGrid .formSubmit:hover {
+  color: #f54020;
+  border-color: #f54020;
+}
+.formDiv .formGrid input {
+  border: black solid 1px;
+  width: 100%;
+  height: 100%;
+}
+.formDiv .formGrid input::placeholder {
+  font-size: smaller;
+  text-align: start;
+  position: relative;
+  left: 5px;
+}
+.formDiv .textConnect {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+}
+.formDiv .textConnect a {
+  font-weight: 700;
+  font-style: italic;
+  color: white;
+  text-decoration: none;
+}
+.formDiv .textConnect a:hover {
+  color: #f54020;
+  scale: 1.1;
+  transition: scale 3s;
+}
+
+@media screen and (min-width: 600px) {
+  /* SHOOTINGS PAGE STYLES */
+  .grid {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(6, 400px);
+    gap: 10px;
+    margin-top: 10px;
+  }
+  .grid .item01 {
+    grid-row: 2/4;
+  }
+  .grid .item02 {
+    grid-column: 1/3;
+    grid-row: 1/2;
+  }
+  .grid .item04 {
+    grid-row: 3/5;
+  }
+  .grid .item05 {
+    grid-row: 4/6;
+  }
+  .grid .item07 {
+    grid-column: 1/3;
+  }
+  /* EDITORIAL PAGE STYLES */
+  .rowPub {
+    justify-content: space-around;
+  }
+  .rowPub .pub:hover {
+    z-index: 2;
+    transform: scale(1.4);
+    transition: 1.5s;
+  }
+}
+@media screen and (min-width: 770px) {
+  /* ABOUT PAGE STYLES START */
+  .rowAbout .textAbout {
+    text-align: left;
+  }
+  /* EDITORIAL PAGE STYLES START */
+  .ediText {
+    align-items: center;
+    padding: 50px !important;
+  }
+}
+@media screen and (min-width: 960px) {
+  /* SHOOTINGS PAGE STYLES */
+  .grid {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: repeat(3, 250px);
+    gap: 10px;
+  }
+  .grid .item01 {
+    grid-row: 1/3;
+  }
+  .grid .item02 {
+    grid-column: 2/4;
+  }
+  .grid .item03 {
+    grid-row: 1/3;
+    grid-column: 4/5;
+  }
+  .grid .item04 {
+    grid-row: 2/4;
+  }
+  .grid .item05 {
+    grid-row: 2/4;
+  }
+  .grid .item07 {
+    grid-column: 4/5;
+  }
+  /* CONNECT PAGE STYLES */
+  .formDiv {
+    background-position-y: center;
+  }
+  .formDiv .textConnect {
+    display: flex;
+    flex-direction: row;
+    font-weight: 600;
+    font-style: italic;
+    color: rgba(254, 249, 244, 0.605);
+  }
+  .formDiv .textConnect a {
+    margin: 0 30px;
+  }
+}
+
+/*# sourceMappingURL=styles.css.map */

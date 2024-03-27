@@ -1,0 +1,24 @@
+/* ABOUT PAGE STYLES START */
+
+.rowAbout{
+    padding: 15px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    .fotoAbout{
+        background-image: url(../assets/maguigif.gif);
+        height: 500px;
+        object-fit: cover;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-color: $color1;
+    }
+    .textAbout{
+        margin-top: 20px;
+        padding: 10px;
+        text-align: center;
+    }
+}
+
+

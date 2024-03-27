@@ -1,0 +1,95 @@
+@media screen and (min-width:600px){
+    /* SHOOTINGS PAGE STYLES */
+    .grid{
+        width: 100%;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: repeat(6, 400px);
+        gap:10px;
+        margin-top: 10px;
+        .item01{
+            grid-row: 2/4;
+        }
+        .item02{
+            grid-column: 1/3;
+            grid-row: 1/2;
+        }
+        .item04{
+            grid-row: 3/5;
+        }
+        .item05{
+            grid-row: 4/6;
+        }
+        .item07{
+            grid-column: 1/3;
+        }
+    }
+
+    /* EDITORIAL PAGE STYLES */
+    .rowPub{
+        justify-content: space-around;
+        .pub:hover{
+            z-index: 2;
+            transform: scale(1.4);
+            transition: 1.5s;
+        }
+    }
+}
+@media screen and (min-width:770px) {
+    /* ABOUT PAGE STYLES START */
+.rowAbout{
+    .textAbout{
+        text-align: left;
+    }
+}
+    /* EDITORIAL PAGE STYLES START */
+.ediText{
+    align-items: center;
+    padding: 50px !important;
+}
+} 
+
+@media screen and (min-width:960px) { 
+        /* SHOOTINGS PAGE STYLES */
+        .grid{
+            width: 100%;
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+            grid-template-rows: repeat(3, 250px);
+            gap:10px;
+            .item01{
+                grid-row: 1/3;
+            }
+            .item02{
+                grid-column: 2/4;
+            }
+            .item03{
+                grid-row: 1/3;
+                grid-column: 4/5;
+            }
+            .item04{
+                grid-row: 2/4;
+            }
+            .item05{
+                grid-row: 2/4;
+            }
+            .item07{
+                grid-column: 4/5;
+            }
+        }
+
+        /* CONNECT PAGE STYLES */
+        .formDiv{
+            background-position-y: center;
+            .textConnect{
+                display: flex;
+                flex-direction: row;
+                font-weight: 600;
+                font-style: italic;
+                color: $color1;
+                a{
+                    margin: 0 30px;
+                }
+            }
+        }
+    }

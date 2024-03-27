@@ -1,0 +1,45 @@
+/* FONTS */
+
+@import url('https://fonts.googleapis.com/css2?family=Gabarito:wght@400..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* font-family: "Montserrat", sans-serif;
+font-family: "Gabarito", sans-serif; */
+
+/* RESET */
+
+*{
+    margin: 0;
+    padding: 0;
+    -webkit-tap-highlight-color: transparent;
+}
+
+/* VARIABLES */
+$color1: rgba(254, 249, 244, 0.605);
+$color2: white;
+$color3: #f54020;
+$color4: black;
+
+$font1:"Montserrat", sans-serif;
+$font2:"Gabarito", sans-serif;
+
+/* GENERAL WEBSITE STYLES */
+body{
+    background-color: $color2;
+}
+
+h1, h2, h3, p, a, input {
+    font-family: $font1;
+}
+
+h1{
+    color: $color3;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+h2{
+    font-style: italic;
+    font-size:larger;
+    color: $color4;
+}
+
