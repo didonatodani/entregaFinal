@@ -1,5 +1,4 @@
 /* SHOOTINGS STYLES START */
-
 .grid{
     width: 100%;
     display: grid;
@@ -10,27 +9,49 @@
     .grid-item{
         background-size: cover;
         background-position: center;
+        .btn{
+            background-size: cover;
+            background-position: center;
+            border: none;
+        }
+        .gridImg{
+            width: 100%;
+            height: 100%;
+        }
     }
     .item01{
-        background-image: url(../assets/shoot04.jpg);
-        background-position: bottom;
+        .btn01{
+            background-image: url(../assets/shoot04.jpg);
+        }
     }
     .item02{
-        background-image: url(../assets/shoot03.jpg);
+        .btn02{
+            background-image: url(../assets/shoot03.jpg);
+        }
     }
     .item03{
-        background-image: url(../assets/shoot07.jpg);
+        .btn03{
+            background-image: url(../assets/shoot07.jpg);
+        }
     }
     .item04{
-        background-image: url(../assets/shoot01.jpg);
+        .btn04{
+            background-image: url(../assets/shoot01.jpg);
+        }
     }
     .item05{
-        background-image: url(../assets/shoot08.jpg);
+        .btn05{
+            background-image: url(../assets/shoot08.jpg);
+        }
     }
     .item06{
-        background-image: url(../assets/shoot02.jpg);
+        .btn06{
+            background-image: url(../assets/shoot02.jpg);
+        }
     }
     .item07{
-        background-image: url(../assets/shoot06.jpg);
+        .btn07{
+            background-image: url(../assets/shoot06.jpg);
+        }
     }
 }

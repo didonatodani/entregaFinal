@@ -136,26 +136,34 @@ footer .socialMedia .social:hover {
   background-size: cover;
   background-position: center;
 }
-.grid .item01 {
-  background-image: url(../assets/shoot04.jpg);
-  background-position: bottom;
+.grid .grid-item .btn {
+  background-size: cover;
+  background-position: center;
+  border: none;
 }
-.grid .item02 {
+.grid .grid-item .gridImg {
+  width: 100%;
+  height: 100%;
+}
+.grid .item01 .btn01 {
+  background-image: url(../assets/shoot04.jpg);
+}
+.grid .item02 .btn02 {
   background-image: url(../assets/shoot03.jpg);
 }
-.grid .item03 {
+.grid .item03 .btn03 {
   background-image: url(../assets/shoot07.jpg);
 }
-.grid .item04 {
+.grid .item04 .btn04 {
   background-image: url(../assets/shoot01.jpg);
 }
-.grid .item05 {
+.grid .item05 .btn05 {
   background-image: url(../assets/shoot08.jpg);
 }
-.grid .item06 {
+.grid .item06 .btn06 {
   background-image: url(../assets/shoot02.jpg);
 }
-.grid .item07 {
+.grid .item07 .btn07 {
   background-image: url(../assets/shoot06.jpg);
 }
 
