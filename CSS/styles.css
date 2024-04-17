@@ -137,6 +137,7 @@ footer .socialMedia .social:hover {
   background-position: center;
 }
 .grid .grid-item .btn {
+  background-color: transparent;
   background-size: cover;
   background-position: center;
   border: none;
