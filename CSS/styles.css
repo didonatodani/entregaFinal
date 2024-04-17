@@ -133,6 +133,7 @@ footer .socialMedia .social:hover {
   margin-top: 10px;
 }
 .grid .grid-item {
+  backgroud-color: white;
   background-size: cover;
   background-position: center;
 }
