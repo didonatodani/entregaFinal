@@ -26,5 +26,5 @@ El proyecto está alojado en GitHub Pages para garantizar acceso público.
 - SASS
 - Bootstrap
 - 
-# Este proyecto refleja los conocimientos adquiridos en el curso, enfocándose en la creación de un sitio web moderno, funcional y responsive.
-Para ver el resultado final, haz click [AQUÍ.]([URL_del_enlace](https://didonatodani.github.io/entregaFinal/index.html))
+### Este proyecto refleja los conocimientos adquiridos en el curso, enfocándose en la creación de un sitio web moderno, funcional y responsive.
+Para ver el resultado final, haz click [AQUÍ.](https://didonatodani.github.io/entregaFinal/index.html)
